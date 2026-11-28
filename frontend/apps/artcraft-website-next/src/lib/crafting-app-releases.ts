@@ -294,7 +294,7 @@ export const CRAFT_DEVELOPER_RELEASES: Partial<
     "tag": "v0.20.1-nightly.20261128.46170501336.1.gd409bd8a87f7",
     "version": "0.20.1-nightly.20261128.46170501336.1.gd409bd8a87f7",
     "publishedAt": "2026-11-28T18:03:55Z",
-    "reconciledAt": "2026-11-28T18:14:25.594Z",
+    "reconciledAt": "2026-11-28T18:27:04.326Z",
     "assets": [
       {
         "name": "filmcraft-0.20.1-nightly.20261128.46170501336.1.gd409bd8a87f7-linux-x86_64-nightly.tar.gz",
@@ -328,11 +328,49 @@ export const CRAFT_DEVELOPER_RELEASES: Partial<
       }
     ]
   },
+  "effectcraft": {
+    "tag": "v0.25.1-nightly.20261128.46170506392.1.g3137db1ed785",
+    "version": "0.25.1-nightly.20261128.46170506392.1.g3137db1ed785",
+    "publishedAt": "2026-11-28T18:24:00Z",
+    "reconciledAt": "2026-11-28T18:27:06.752Z",
+    "assets": [
+      {
+        "name": "effectcraft-0.25.1-nightly.20261128.46170506392.1.g3137db1ed785-linux-x86_64-nightly.tar.gz",
+        "size": 55098326,
+        "sha256": "af7c0e1a7785fdc2b8ab77f7cfa88e92cea5d72fb0a03fef163bea140bc0d5c3"
+      },
+      {
+        "name": "effectcraft-0.25.1-nightly.20261128.46170506392.1.g3137db1ed785-linux-x86_64-nightly.tar.gz.asc",
+        "size": 228,
+        "sha256": "a2fc24f84e00555d011f13cf6b15ec9d8d5e77425db62e0f3646d3057e04d0f3"
+      },
+      {
+        "name": "effectcraft-0.25.1-nightly.20261128.46170506392.1.g3137db1ed785-macos-aarch64-nightly.zip",
+        "size": 47917780,
+        "sha256": "3dacc2e5d573c58c4d1a0f53934165d6bf1feb8d732573b76455363a53a357d6"
+      },
+      {
+        "name": "effectcraft-0.25.1-nightly.20261128.46170506392.1.g3137db1ed785-windows-x86_64-nightly.zip",
+        "size": 51348691,
+        "sha256": "fdad98cd6c130c4b6a1f742e55456d90281ba84fab7eb95dcbb01bbfa676e91f"
+      },
+      {
+        "name": "NIGHTLY.json",
+        "size": 2546,
+        "sha256": "47658b3b91a157eaa6e105f2b28817998557096727b7617a393c4ad6f15505d5"
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "size": 717,
+        "sha256": "183123fb8bdcc792f0a187316279eb895e1643a80a204bd6dd5f8a19ab0ee22c"
+      }
+    ]
+  },
   "designcraft": {
     "tag": "v0.21.1-nightly.20261128.46170255033.1.gabd40399574a",
     "version": "0.21.1-nightly.20261128.46170255033.1.gabd40399574a",
     "publishedAt": "2026-11-28T18:04:04Z",
-    "reconciledAt": "2026-11-28T18:14:29.027Z",
+    "reconciledAt": "2026-11-28T18:27:08.013Z",
     "assets": [
       {
         "name": "designcraft-0.21.1-nightly.20261128.46170255033.1.gabd40399574a-linux-x86_64-nightly.tar.gz",
@@ -370,7 +408,7 @@ export const CRAFT_DEVELOPER_RELEASES: Partial<
     "tag": "v0.4.1-nightly.20261128.46170260755.1.ge78378a6e8c0",
     "version": "0.4.1-nightly.20261128.46170260755.1.ge78378a6e8c0",
     "publishedAt": "2026-11-28T18:03:14Z",
-    "reconciledAt": "2026-11-28T18:14:30.753Z",
+    "reconciledAt": "2026-11-28T18:27:09.575Z",
     "assets": [
       {
         "name": "materialcraft-0.4.1-nightly.20261128.46170260755.1.ge78378a6e8c0-linux-x86_64-nightly.tar.gz",
@@ -404,11 +442,49 @@ export const CRAFT_DEVELOPER_RELEASES: Partial<
       }
     ]
   },
+  "wordcraft": {
+    "tag": "v0.19.1-nightly.20261128.46170503962.1.geeeb31d85f79",
+    "version": "0.19.1-nightly.20261128.46170503962.1.geeeb31d85f79",
+    "publishedAt": "2026-11-28T18:25:58Z",
+    "reconciledAt": "2026-11-28T18:27:10.342Z",
+    "assets": [
+      {
+        "name": "NIGHTLY.json",
+        "size": 2515,
+        "sha256": "24202b9c8c153870f06f97d3e02fd6580c258b5e8e576166fbafa0519aba5746"
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "size": 709,
+        "sha256": "e30caf11b4ddbe685fcabdeeb56f822ef0fc47e8669ab21675f284ef94248275"
+      },
+      {
+        "name": "wordcraft-0.19.1-nightly.20261128.46170503962.1.geeeb31d85f79-linux-x86_64-nightly.tar.gz",
+        "size": 117006113,
+        "sha256": "8af57ede7c691a01c5a5b0c2005cbc6fcd7c0207eb503f99e342a6c3fe6a27aa"
+      },
+      {
+        "name": "wordcraft-0.19.1-nightly.20261128.46170503962.1.geeeb31d85f79-linux-x86_64-nightly.tar.gz.asc",
+        "size": 228,
+        "sha256": "d257257e8330b5e81e3ca689f9db7007e2135e9f7b28f6d94a04ebf86cb71b8c"
+      },
+      {
+        "name": "wordcraft-0.19.1-nightly.20261128.46170503962.1.geeeb31d85f79-macos-aarch64-nightly.zip",
+        "size": 108019185,
+        "sha256": "34758cd91f3e370326bf03b2e3ad2fe20747f1805773946f8d76b3e361fe29c2"
+      },
+      {
+        "name": "wordcraft-0.19.1-nightly.20261128.46170503962.1.geeeb31d85f79-windows-x86_64-nightly.zip",
+        "size": 106376076,
+        "sha256": "7e405001bfdb92c2d1f1b98623ddc68e5af40764466eaa2fc9a52649ae1cf63e"
+      }
+    ]
+  },
   "soundcraft": {
     "tag": "v0.20.1-nightly.20261128.46170257643.1.g865baa99f193",
     "version": "0.20.1-nightly.20261128.46170257643.1.g865baa99f193",
     "publishedAt": "2026-11-28T18:02:39Z",
-    "reconciledAt": "2026-11-28T18:14:32.032Z",
+    "reconciledAt": "2026-11-28T18:27:11.079Z",
     "assets": [
       {
         "name": "NIGHTLY.json",
@@ -446,7 +522,7 @@ export const CRAFT_DEVELOPER_RELEASES: Partial<
     "tag": "v0.19.1-nightly.20261128.46170252267.1.g274ec864ec71",
     "version": "0.19.1-nightly.20261128.46170252267.1.g274ec864ec71",
     "publishedAt": "2026-11-28T18:03:12Z",
-    "reconciledAt": "2026-11-28T18:14:32.781Z",
+    "reconciledAt": "2026-11-28T18:27:11.745Z",
     "assets": [
       {
         "name": "deckcraft-0.19.1-nightly.20261128.46170252267.1.g274ec864ec71-linux-x86_64-nightly.tar.gz",
@@ -484,7 +560,7 @@ export const CRAFT_DEVELOPER_RELEASES: Partial<
     "tag": "v0.20.1-nightly.20261128.46170513920.1.g348ab510b46c",
     "version": "0.20.1-nightly.20261128.46170513920.1.g348ab510b46c",
     "publishedAt": "2026-11-28T18:14:17Z",
-    "reconciledAt": "2026-11-28T18:14:33.437Z",
+    "reconciledAt": "2026-11-28T18:27:12.400Z",
     "assets": [
       {
         "name": "cadcraft-0.20.1-nightly.20261128.46170513920.1.g348ab510b46c-linux-x86_64-nightly.tar.gz",
@@ -522,7 +598,7 @@ export const CRAFT_DEVELOPER_RELEASES: Partial<
     "tag": "v0.19.1-nightly.20261128.46170249690.1.gf2934fd0096d",
     "version": "0.19.1-nightly.20261128.46170249690.1.gf2934fd0096d",
     "publishedAt": "2026-11-28T17:53:15Z",
-    "reconciledAt": "2026-11-28T18:14:34.203Z",
+    "reconciledAt": "2026-11-28T18:27:13.087Z",
     "assets": [
       {
         "name": "gridcraft-0.19.1-nightly.20261128.46170249690.1.gf2934fd0096d-linux-x86_64-nightly.tar.gz",
