@@ -290,11 +290,201 @@ export type CraftDeveloperRelease = {
 export const CRAFT_DEVELOPER_RELEASES: Partial<
   Record<CraftAppSlug | "artcraft-launcher" | "artcraft", CraftDeveloperRelease>
 > = {
+  "filmcraft": {
+    "tag": "v0.20.1-nightly.20261128.46170501336.1.gd409bd8a87f7",
+    "version": "0.20.1-nightly.20261128.46170501336.1.gd409bd8a87f7",
+    "publishedAt": "2026-11-28T18:03:55Z",
+    "reconciledAt": "2026-11-28T18:07:16.020Z",
+    "assets": [
+      {
+        "name": "filmcraft-0.20.1-nightly.20261128.46170501336.1.gd409bd8a87f7-linux-x86_64-nightly.tar.gz",
+        "size": 71148611,
+        "sha256": "b8e05318afee628e09ac07928ab38f90ae2a58169ebd8fc57d1dfb19413127fb"
+      },
+      {
+        "name": "filmcraft-0.20.1-nightly.20261128.46170501336.1.gd409bd8a87f7-linux-x86_64-nightly.tar.gz.asc",
+        "size": 228,
+        "sha256": "13f4432ee7f8b794350b514b823ec7c784797865c024a0ece9962f6d5424665b"
+      },
+      {
+        "name": "filmcraft-0.20.1-nightly.20261128.46170501336.1.gd409bd8a87f7-macos-aarch64-nightly.zip",
+        "size": 65797047,
+        "sha256": "da7e33ccd7139404b96bc75f3e1fece95e71c45d09b97197a9da3f36e226bfbf"
+      },
+      {
+        "name": "filmcraft-0.20.1-nightly.20261128.46170501336.1.gd409bd8a87f7-windows-x86_64-nightly.zip",
+        "size": 67888320,
+        "sha256": "99071da6e99b392fb95903d8ef2be7ed419623c8c6911925b9aad78e208ca94f"
+      },
+      {
+        "name": "NIGHTLY.json",
+        "size": 2512,
+        "sha256": "f669fbf9b6f7d5353f29e3d3ab87c021a4b587b9173222fb386a6a97c723499d"
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "size": 709,
+        "sha256": "8a127ca1a4ac385c17557e8448187f3ffc98897215fae4c11c9d056c9d8a6046"
+      }
+    ]
+  },
+  "designcraft": {
+    "tag": "v0.21.1-nightly.20261128.46170255033.1.gabd40399574a",
+    "version": "0.21.1-nightly.20261128.46170255033.1.gabd40399574a",
+    "publishedAt": "2026-11-28T18:04:04Z",
+    "reconciledAt": "2026-11-28T18:07:19.809Z",
+    "assets": [
+      {
+        "name": "designcraft-0.21.1-nightly.20261128.46170255033.1.gabd40399574a-linux-x86_64-nightly.tar.gz",
+        "size": 80731015,
+        "sha256": "23c1f751198b8e2332ba7409de551e37cf0702b64c73a9d68918a3f8cb7af85f"
+      },
+      {
+        "name": "designcraft-0.21.1-nightly.20261128.46170255033.1.gabd40399574a-linux-x86_64-nightly.tar.gz.asc",
+        "size": 228,
+        "sha256": "0979c8d74f0fbd8a3d7f7b7d3b6973882040921e885599e5dc362374faa1c544"
+      },
+      {
+        "name": "designcraft-0.21.1-nightly.20261128.46170255033.1.gabd40399574a-macos-aarch64-nightly.zip",
+        "size": 75842541,
+        "sha256": "d68fcf58d751606b6e3b8485a893fe0efc1915311708ee959f1c5c1f551f828f"
+      },
+      {
+        "name": "designcraft-0.21.1-nightly.20261128.46170255033.1.gabd40399574a-windows-x86_64-nightly.zip",
+        "size": 75686057,
+        "sha256": "2834b17479dbd1670541e09a9105b1433b72a3ae4841ebdd7acc6fb855713a04"
+      },
+      {
+        "name": "NIGHTLY.json",
+        "size": 2546,
+        "sha256": "8b1ce40a4bf464f75cd6a656bbf31387d4024aad246c156a0653487c2710cfb6"
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "size": 717,
+        "sha256": "af62f64f55111eb2cffbecac03e79b9f5ca0710054761bf09ca4a1ae88b95566"
+      }
+    ]
+  },
+  "materialcraft": {
+    "tag": "v0.4.1-nightly.20261128.46170260755.1.ge78378a6e8c0",
+    "version": "0.4.1-nightly.20261128.46170260755.1.ge78378a6e8c0",
+    "publishedAt": "2026-11-28T18:03:14Z",
+    "reconciledAt": "2026-11-28T18:07:21.511Z",
+    "assets": [
+      {
+        "name": "materialcraft-0.4.1-nightly.20261128.46170260755.1.ge78378a6e8c0-linux-x86_64-nightly.tar.gz",
+        "size": 46004259,
+        "sha256": "995fbfdd7659c071ac0d91c74a0c9ab4a0f84ac7edfdd2889e9115637da65272"
+      },
+      {
+        "name": "materialcraft-0.4.1-nightly.20261128.46170260755.1.ge78378a6e8c0-linux-x86_64-nightly.tar.gz.asc",
+        "size": 228,
+        "sha256": "077741f0d2e4a3c4504d75a021c2cb15b451f928f9b0d2bbc7bb80c1c3ab249e"
+      },
+      {
+        "name": "materialcraft-0.4.1-nightly.20261128.46170260755.1.ge78378a6e8c0-macos-aarch64-nightly.zip",
+        "size": 42273765,
+        "sha256": "e7f25dabcc265d706a8d68675a52313b6efaf7d1d6fbb470d8619b5a5daa7cf4"
+      },
+      {
+        "name": "materialcraft-0.4.1-nightly.20261128.46170260755.1.ge78378a6e8c0-windows-x86_64-nightly.zip",
+        "size": 43629250,
+        "sha256": "f53aadc5423b4efa3ca0fd8af8efd7fe681f15222af9cfa31e763f8d2f13e8b0"
+      },
+      {
+        "name": "NIGHTLY.json",
+        "size": 2567,
+        "sha256": "0c9d624d7a603010cb2edafff0bbab613050d74588543ea2ef9f5be4d27b3b54"
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "size": 721,
+        "sha256": "4103980e7cc4a4dd7233037e5efe0cd84c29bce2d28ac995f56d31cae5cfa849"
+      }
+    ]
+  },
+  "soundcraft": {
+    "tag": "v0.20.1-nightly.20261128.46170257643.1.g865baa99f193",
+    "version": "0.20.1-nightly.20261128.46170257643.1.g865baa99f193",
+    "publishedAt": "2026-11-28T18:02:39Z",
+    "reconciledAt": "2026-11-28T18:07:22.966Z",
+    "assets": [
+      {
+        "name": "NIGHTLY.json",
+        "size": 2529,
+        "sha256": "580bbfcabb32fedccc956c3e25c1d50132595fb8dfbcf9952c1da4a5214806d4"
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "size": 713,
+        "sha256": "7f6128b6089910bc707afbba27e69b0b5c8f6c2207aae0d08d07190b207cba75"
+      },
+      {
+        "name": "soundcraft-0.20.1-nightly.20261128.46170257643.1.g865baa99f193-linux-x86_64-nightly.tar.gz",
+        "size": 26953435,
+        "sha256": "c969120b3208904fa88276d37e74ee489dc4a0ca9e6592ca36ad931c5ce95649"
+      },
+      {
+        "name": "soundcraft-0.20.1-nightly.20261128.46170257643.1.g865baa99f193-linux-x86_64-nightly.tar.gz.asc",
+        "size": 228,
+        "sha256": "89d13652420aeda4edb45b384a27f319eef3ce77f6b2809d3b6a9f98f2318dee"
+      },
+      {
+        "name": "soundcraft-0.20.1-nightly.20261128.46170257643.1.g865baa99f193-macos-aarch64-nightly.zip",
+        "size": 21657273,
+        "sha256": "a7cb12e762284acf2dda4b3b63cb520113102ba52ab8db4a12165775f9bcefc6"
+      },
+      {
+        "name": "soundcraft-0.20.1-nightly.20261128.46170257643.1.g865baa99f193-windows-x86_64-nightly.zip",
+        "size": 21689916,
+        "sha256": "8ea51c18d75d44954c1cd892736e18e3521823ba3db0734bc0e82b63112ed670"
+      }
+    ]
+  },
+  "deckcraft": {
+    "tag": "v0.19.1-nightly.20261128.46170252267.1.g274ec864ec71",
+    "version": "0.19.1-nightly.20261128.46170252267.1.g274ec864ec71",
+    "publishedAt": "2026-11-28T18:03:12Z",
+    "reconciledAt": "2026-11-28T18:07:23.641Z",
+    "assets": [
+      {
+        "name": "deckcraft-0.19.1-nightly.20261128.46170252267.1.g274ec864ec71-linux-x86_64-nightly.tar.gz",
+        "size": 66478217,
+        "sha256": "c8c113138893d9cb4a03281284b156769c920e225064e3fa111c9d2ce8568c37"
+      },
+      {
+        "name": "deckcraft-0.19.1-nightly.20261128.46170252267.1.g274ec864ec71-linux-x86_64-nightly.tar.gz.asc",
+        "size": 228,
+        "sha256": "07ec0c7f44d74bc759334998b4fa3b99845872b38e49f7a5d201996084a913c7"
+      },
+      {
+        "name": "deckcraft-0.19.1-nightly.20261128.46170252267.1.g274ec864ec71-macos-aarch64-nightly.zip",
+        "size": 61198207,
+        "sha256": "df13623bfe4b6e56e001fbf130fa70e55bedabc3e9dbb581deffa30faf144d47"
+      },
+      {
+        "name": "deckcraft-0.19.1-nightly.20261128.46170252267.1.g274ec864ec71-windows-x86_64-nightly.zip",
+        "size": 61493184,
+        "sha256": "5b69e2ce6712ce50f4dc01b4917b7a178c62befdd73d68904845b5a23a54474b"
+      },
+      {
+        "name": "NIGHTLY.json",
+        "size": 2512,
+        "sha256": "75979b4304dcd490e41f6d074c6d52252e9aa727b859ce6f81e6dfff1d8536c7"
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "size": 709,
+        "sha256": "1683e371ba913a610f2592f98dd2fc40763ae250217d7ff3584614abf5214385"
+      }
+    ]
+  },
   "cadcraft": {
     "tag": "v0.20.1-nightly.20261127.46074241695.1.gf7adf3ad561c",
     "version": "0.20.1-nightly.20261127.46074241695.1.gf7adf3ad561c",
     "publishedAt": "2026-11-27T22:48:29Z",
-    "reconciledAt": "2026-11-28T17:10:17.871Z",
+    "reconciledAt": "2026-11-28T18:07:24.411Z",
     "assets": [
       {
         "name": "cadcraft-0.20.1-nightly.20261127.46074241695.1.gf7adf3ad561c-linux-x86_64-nightly.tar.gz",
@@ -329,40 +519,40 @@ export const CRAFT_DEVELOPER_RELEASES: Partial<
     ]
   },
   "gridcraft": {
-    "tag": "v0.19.1-nightly.20261127.46047957334.1.g97f2754c1ddf",
-    "version": "0.19.1-nightly.20261127.46047957334.1.g97f2754c1ddf",
-    "publishedAt": "2026-11-27T18:58:43Z",
-    "reconciledAt": "2026-11-28T17:10:18.632Z",
+    "tag": "v0.19.1-nightly.20261128.46170249690.1.gf2934fd0096d",
+    "version": "0.19.1-nightly.20261128.46170249690.1.gf2934fd0096d",
+    "publishedAt": "2026-11-28T17:53:15Z",
+    "reconciledAt": "2026-11-28T18:07:25.149Z",
     "assets": [
       {
-        "name": "gridcraft-0.19.1-nightly.20261127.46047957334.1.g97f2754c1ddf-linux-x86_64-nightly.tar.gz",
-        "size": 56272624,
-        "sha256": "e076ee5e1204cc2de477372be2f39b34a1e00b19559763b89a52830de7152727"
+        "name": "gridcraft-0.19.1-nightly.20261128.46170249690.1.gf2934fd0096d-linux-x86_64-nightly.tar.gz",
+        "size": 56263176,
+        "sha256": "40fb33b9be94109a4f60a400a316230c8b650380e8ae9647409b5d11a740a158"
       },
       {
-        "name": "gridcraft-0.19.1-nightly.20261127.46047957334.1.g97f2754c1ddf-linux-x86_64-nightly.tar.gz.asc",
+        "name": "gridcraft-0.19.1-nightly.20261128.46170249690.1.gf2934fd0096d-linux-x86_64-nightly.tar.gz.asc",
         "size": 228,
-        "sha256": "7fcbfcc9cb426a9bfc046119a6eb0cac383136aecacf0078bb8cebbefeb70243"
+        "sha256": "1fcb7e5a3529977b010b7e85fde53ef06a476f30fd68b2ed3b79dd183e25d8c0"
       },
       {
-        "name": "gridcraft-0.19.1-nightly.20261127.46047957334.1.g97f2754c1ddf-macos-aarch64-nightly.zip",
-        "size": 51450231,
-        "sha256": "87f8ca89440b9ee6ea8f2c71c292a82543b39ee961bc0bdc8f707cc029c5d706"
+        "name": "gridcraft-0.19.1-nightly.20261128.46170249690.1.gf2934fd0096d-macos-aarch64-nightly.zip",
+        "size": 51454803,
+        "sha256": "1b6f6134738ff4368f860011457326176b1c37c139de42739f26905b38b10663"
       },
       {
-        "name": "gridcraft-0.19.1-nightly.20261127.46047957334.1.g97f2754c1ddf-windows-x86_64-nightly.zip",
-        "size": 51381701,
-        "sha256": "d80d0f5ba62c18750207ee52f367fdcf483f594c4ee958515df39187cae5a1d7"
+        "name": "gridcraft-0.19.1-nightly.20261128.46170249690.1.gf2934fd0096d-windows-x86_64-nightly.zip",
+        "size": 51369923,
+        "sha256": "4721bc5f12b68d29bc2da87482419a43024ed2676063935395049ad3c2a0395f"
       },
       {
         "name": "NIGHTLY.json",
         "size": 2512,
-        "sha256": "5247ce9a85f762e8b2f52885674adda6e6b92f5dfb16d57aab206d7b62f72079"
+        "sha256": "d52ba306d1af4f615fb6ae4343beff3cd108e6480ace5509cc738a559cbf4d26"
       },
       {
         "name": "SHA256SUMS.txt",
         "size": 709,
-        "sha256": "37397dfa33f1af56e848bc9e7cb4dee27841092b5c672a6ab215adc3fc4584d5"
+        "sha256": "27c22955f944c5be4536b2624a524f4e47dd4d5170042645742391a7a3012339"
       }
     ]
   }
